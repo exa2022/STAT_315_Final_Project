@@ -4,7 +4,7 @@ FROM python:3.10
 WORKDIR /app
 
 # Copy notebook into container
-COPY STAT_315_Final_Project.ipynb /app/STAT_315_Final_Project.ipynb
+COPY . /app
 
 # Install dependencies directly with pinned versions
 RUN pip install --upgrade pip && \
