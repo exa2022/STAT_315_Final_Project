@@ -13,6 +13,6 @@ This repository contains the final project for STAT 315, which includes the fina
 docker pull ghcr.io/exa2022/stat-315-final-project/stat315:latest
 
 
-### **Pull the Docker Image**
+### **Run the Docker Image**
 docker run -p 8888:8888 ghcr.io/exa2022/stat-315-final-project/stat315:latest
 
