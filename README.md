@@ -1,13 +1,18 @@
 # STAT 315 Final Project
 By: Ekansh, Nishanth, Tanish
 
-**How to Pull & Run Docker Image:**
+This repository contains the final project for STAT 315, which includes the final google colab notebook, data files, ReadME, as well as the Dockerfile. To make it easy to run the project without installing Python or dependencies locally, we have provided a complete ready-to-use Docker image that contains the full environment.
 
-**Note:** Make sure to have Docker Engine or Hub running in the background.
+---
 
-1. **Pull the Docker Image from GitHub Container Registry using the following command:**
+## **Pull & Run the Docker Image**
+
+> **Note:** Ensure Docker Engine is installed and running on your machine before starting.
+
+### **Pull the Docker Image**
 docker pull ghcr.io/exa2022/stat-315-final-project/stat315:latest
 
-2. **Run the Docker Image inside the Docker Container using the following command:**
-docker run ghcr.io/exa2022/stat-315-final-project/stat315:latest
+
+### **Pull the Docker Image**
+docker run -p 8888:8888 ghcr.io/exa2022/stat-315-final-project/stat315:latest
 
