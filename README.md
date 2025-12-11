@@ -27,3 +27,10 @@ docker pull --platform linux/amd64 ghcr.io/exa2022/stat-315-final-project/stat31
 ### **Run the Docker Image**
 docker run --platform linux/amd64 -p 8888:8888 ghcr.io/exa2022/stat-315-final-project/stat315:latest
 
+
+---
+
+
+### **Next Steps**
+
+Once you run the Docker image, open this URL: **http://127.0.0.1:8888/tree**. This will open the directory that has access to every other file, such as the notebook and the data files.
