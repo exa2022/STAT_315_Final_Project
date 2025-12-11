@@ -16,3 +16,13 @@ docker pull ghcr.io/exa2022/stat-315-final-project/stat315:latest
 ### **Run the Docker Image**
 docker run -p 8888:8888 ghcr.io/exa2022/stat-315-final-project/stat315:latest
 
+###**For Mac Users:**
+
+---
+
+### **Pull the Docker Image**
+docker pull --platform linux/amd64 ghcr.io/exa2022/stat-315-final-project/stat315:latest
+
+### **Run the Docker Image**
+docker run --platform linux/amd64 -p 8888:8888 ghcr.io/exa2022/stat-315-final-project/stat315:latest
+
